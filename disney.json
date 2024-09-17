@@ -1,10 +1,19 @@
 [
+   {
+    "hora": "00:00",
+    "img": "0b6a415f-345c-470a-8310-56d63f2d7ba5",
+    "key": "",
+    "league": "UEFA Champions League",
+    "status": "EN VIVO",
+    "title": "Real Madrid vs. VfB Stuttgart",
+    "url": "/eventos.html?r=Ly9hbnRhZy54eXovZXh0ZW5zaW9uLnBocD9nZXQ9RVZFTlRPNg=="
+  },
   {
     "hora": "00:00",
     "img": "0befe24c-1900-40cb-86a7-74657bdd5e12",
     "key": "",
     "league": "UEFA Champions League",
-    "status": "EN VIVO",
+    "status": "FINALIZADO",
     "title": "Juventus vs. PSV",
     "url": "/eventos.html?r=Ly9hbnRhZy54eXovZXh0ZW5zaW9uLnBocD9nZXQ9RVZFTlRPMw=="
   },
@@ -13,7 +22,7 @@
     "img": "7fed63be-8ff4-4bde-89dd-06f44abc2652",
     "key": "#",
     "league": "UEFA Champions League",
-    "status": "EN VIVO",
+    "status": "FINALIZADO",
     "title": "Young Boys vs. Aston Villa",
     "url": "/eventos.html?r=Y2hyb21lLWV4dGVuc2lvbjovL29wbWVvcGNhbWJoZmltZmZib21qZ2VtZWhqa2JibWppL3BhZ2VzL3BsYXllci5odG1sIyM/JmNrPWUzMD0="
   }
