@@ -1,0 +1,20 @@
+[
+  {
+    "hora": "00:00",
+    "img": "https://image.discovery.indazn.com/ca/v2/ca/image?id=9t6q8cz56btbr58rjlx6h728h_image-header_pRow_1725353561000&quality=70",
+    "key": "",
+    "league": "UEFA Champions League",
+    "status": "EN VIVO",
+    "title": "Juventus vs. PSV",
+    "url": "/eventos.html?r=Ly9hbnRhZy54eXovZXh0ZW5zaW9uLnBocD9nZXQ9RVZFTlRPMw=="
+  },
+  {
+    "hora": "02:00",
+    "img": "https://image.discovery.indazn.com/ca/v2/ca/image?id=c1dlna2zaykpuhdjh3h3ih0z_image-header_pRow_1725959837000",
+    "key": "#",
+    "league": "UEFA Champions League",
+    "status": "EN VIVO",
+    "title": "Young Boys vs. Aston Villa",
+    "url": "/eventos.html?r=Y2hyb21lLWV4dGVuc2lvbjovL29wbWVvcGNhbWJoZmltZmZib21qZ2VtZWhqa2JibWppL3BhZ2VzL3BsYXllci5odG1sIyM/JmNrPWUzMD0="
+  }
+]
