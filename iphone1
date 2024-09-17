@@ -1,0 +1,11 @@
+<head>
+  <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js">
+  </script>
+</head>
+<body>
+  <div id="player"></div>
+  <script>
+    var player = new Clappr.Player({source: "https://8.tutl24.xyz/live/ST91862c67b9241ff.m3u8", parentId: "#player"});
+  </script>
+</body>
