@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+ <!-- Player -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/clappr/0.2.86/clappr.min.js"></script>
+  <!-- Video resolution switcher -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
+  <!-- Dash -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/dash-shaka-playback@2.2.1/dist/dash-shaka-playback.min.js"></script>
+<style>
+  body {
+    margin: 0px
+  }
+</style>
+
+</head>
+ 
+<body>
+  <div id="player"></div>
+  <script>
+    var player = new Clappr.Player({
+      source: "https://tvup-live.akamaized.net/mega6/mega6.mpd",    
+        watermark: "", position: 'top-right',
+        poster: "",
+            shakaConfiguration: {
+            drm: {
+                "clearKeys": {
+                     '17c96fff5b3656e3973b2431d54740e3':'4ea5aa764f7806b1bc9d5d70dc30f953','d7929e94a9035f8eb174edcd585e33da':'843ae6087cb1c7897107ed477f12ad07','a5bcd9e88a9f56c198ffbdd1057a701d':'bdffe57e1abd9ce12c400da3b2e5d3ae'
+                }
+            },
+            preferredAudioLanguage: 'pt-BR',
+        },
+         width: "100%",
+        height: "100%",
+      parentId: "#player",
+      plugins: {
+        core: [LevelSelector],
+        playback:[DashShakaPlayback]
+      },
+    });
+  </script>
+</body>
